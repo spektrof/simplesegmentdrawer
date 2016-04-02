@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{6b741173-51bb-49bf-becf-4e93df9ddd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{7ec3498e-c5fd-4a78-8f27-8d0d5e9e7b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ea3b1c15-4b98-46c7-a05e-9a83d83842e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visualization">
+      <UniqueIdentifier>{82ca44a5-33d3-42cf-b3f8-e10e59c746be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utils\CameraAndLight.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\userinterface.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualization\MyApp.cpp">
+      <Filter>Visualization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GeneratedFiles\Debug\moc_userinterface.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\GLUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\request.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\userinterface.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CameraAndLight.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualization\MyApp.h">
+      <Filter>Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GeneratedFiles\ui_userinterface.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\frag_2d.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\vert_2d.vert">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
